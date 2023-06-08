@@ -88,6 +88,3 @@ def train():
         print("epoch:{}, loss:{:.2f}".format(epoch, loss_avg / len(data)))
         torch.save(model, 'poetry_model.pth')
 
-
-if __name__ == '__main__':
-    train()
